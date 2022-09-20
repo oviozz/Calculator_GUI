@@ -84,7 +84,7 @@ class Ui_Form(object):
         self.clear_index.setStyleSheet("background-color: rgb(71, 98, 40);")
         self.clear_index.setText("")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("../delete-315.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap("delete_icon.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.clear_index.setIcon(icon)
         self.clear_index.setIconSize(QtCore.QSize(80, 60))
         self.clear_index.setAutoDefault(False)
